@@ -7,7 +7,7 @@ void main(List<String> args) {
   var app1 = App(logger: ConsoleLogger());
   app1.run();
 
-// File Logger
+  // File Logger
   var app2 = App(logger: FileLogger());
   app2.run();
 }
